@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CRUD com PHP, de forma simples e fácil</title>
+    <title>Inserir Aluno</title>
   </head>
   <body>
 	<form action="action.php" method="POST">
