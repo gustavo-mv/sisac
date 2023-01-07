@@ -1,5 +1,6 @@
 <html>
 <head>
+    <title> Teste QRCODE </title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,7 +12,7 @@
         <p>Paste a url or enter text to create QR code</p>
       </header>
       <div class="form" name="form">
-        <input type="text" id="myform" spellcheck="false" onchange="myfunction()" placeholder="Enter text or url">
+        <input type="text" id="myform" spellcheck="false" placeholder="Enter text or url">
         <button>Generate QR Code</button>
       </div>
       <div class="qr-code">
