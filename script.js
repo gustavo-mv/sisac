@@ -72,7 +72,7 @@ function Ajax() {
     if (xmlHttp.readyState == 4) {
       const valor = getRandomInt(10, 100);
       document.getElementById("myform").value = valor;
-      // FALTA MUDAR O QR CODE JUNTO COM O VALOR
+      // MUDANDO QR CODE JUNTO COM O VALOR DO INPUT
       geraQR(valor)
       // CONFIGURA O TEMPO DO REFRESH
       setTimeout("Ajax()", refresh);
